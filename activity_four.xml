@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cyan"
+    tools:context="com.example.joy.holly_bolly.FourActivity">
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="238dp"
+        android:layout_height="71dp"
+        android:text="RESTART"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="233dp"
+        android:layout_height="70dp"
+        android:text="QUIT"
+        tools:layout_editor_absoluteX="534dp"
+        tools:layout_editor_absoluteY="801dp" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="238dp"
+        android:layout_height="75dp"
+        android:text="CHECK"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="799dp" />
+
+    <TextView
+        android:id="@+id/chance_txt"
+        android:layout_width="175dp"
+        android:layout_height="82dp"
+        android:fontFamily="casual"
+        android:text=" "
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="432dp"
+        tools:text="CHANCES LEFT" />
+
+    <TextView
+        android:id="@+id/Check_box"
+        android:layout_width="68dp"
+        android:layout_height="62dp"
+        android:text=" "
+        android:background="#ffffff"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="678dp" />
+
+    <TextView
+        android:id="@+id/chance"
+        android:layout_width="169dp"
+        android:layout_height="92dp"
+        android:text=" "
+        android:background="#ffffff"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="519dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <TextView
+        android:id="@+id/main_text"
+        android:layout_width="767dp"
+        android:layout_height="208dp"
+        android:textColor="#000000"
+        android:text=" " />
+</android.support.constraint.ConstraintLayout>
